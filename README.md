@@ -81,7 +81,9 @@ roslaunch first_world.launch (second_world.launch, third_world.launch)
 
 **/mavros/altitude**
 
-###### Изменения в версии v2:
+------
+
+##### Изменения в версии v2:
 
 Отлючен модуль GPS.
 
