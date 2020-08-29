@@ -32,6 +32,13 @@ wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/inst
 sudo chmod +x ./install_geographiclib_datasets.sh
 sudo ./install_geographiclib_datasets.sh
 ```
+#### Установка репозитория
+
+```bash
+git clone git@github.com:KSurov/Aerobot2020.git
+cd Aerobot2020/
+git submodule update --init
+```
 
 #### Компиляция рабочего пространства ROS (catkin_ws)
 
@@ -47,7 +54,7 @@ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
 ```
 
-Затем перейти в дерикторию **Firmware/launch** 
+Затем перейти в дерикторию **Firmware/launch**
 
 В терминале выбрать требуемый уровень:
 
