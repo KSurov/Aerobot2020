@@ -1,3 +1,4 @@
 [submodule "Firmware"]
 	path = Firmware
 	url = git@github.com:KSurov/Firmware.git
+	branch = Aerobot2020
