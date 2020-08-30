@@ -35,7 +35,7 @@ sudo ./install_geographiclib_datasets.sh
 #### Установка репозитория
 
 ```bash
-git clone git@github.com:KSurov/Aerobot2020.git
+git clone https://github.com/KSurov/Aerobot2020.git
 cd Aerobot2020/
 git submodule update --init
 ```
